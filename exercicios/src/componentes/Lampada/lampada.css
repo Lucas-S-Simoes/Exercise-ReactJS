@@ -1,0 +1,30 @@
+
+.container {
+    width: 100vw;
+    position: relative;
+    top: 250px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btns button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    background-color: rgb(255, 184, 53);
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}

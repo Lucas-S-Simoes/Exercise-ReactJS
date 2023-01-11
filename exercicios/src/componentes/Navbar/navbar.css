@@ -1,0 +1,37 @@
+
+.navbar {
+    float: right;
+    height: 100vh;
+    font-size: 1.1rem;
+    border-left: 1px solid var(--colorLine);
+    background-color: rgb(24, 23, 26);
+}
+
+.navbar-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    color: var(--colorLine);
+}
+
+.navbar-container li {
+    padding: 5px;
+}
+
+.nav-title {
+    padding: 5px 20px 5px 20px;
+
+}
+
+.line1 {
+    background-color: var(--colorLine);
+    height: 1px;
+    width: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--colorText);
+}

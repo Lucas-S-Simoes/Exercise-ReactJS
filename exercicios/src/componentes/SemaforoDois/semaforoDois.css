@@ -1,0 +1,61 @@
+
+.container-semaforoDois {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.semaforo-luzes {
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 170px;
+    height: 470px;
+    background-color: aliceblue;
+    background-color: rgb(58, 58, 58);
+    border-radius: 20px;
+}
+
+.luz-vermelha {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 34, 34);
+    border-radius: 50%;
+    opacity: 30%;
+}
+.luz-amarela {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    opacity: 30%;
+}
+.luz-verde {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(2, 243, 2);
+    border-radius: 50%;
+    opacity: 30%;
+}
+
+.luz-verde, .luz-amarela, .luz-vermelha {
+    margin: 0 auto;
+}
+
+.opacity {
+    opacity: 100%;
+}
+
+.btns-semaDois {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.btns-semaDois button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(75, 49, 0);
+    color: aliceblue;
+}

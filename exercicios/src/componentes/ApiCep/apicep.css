@@ -1,0 +1,36 @@
+
+.espaco-cep {
+    margin-right: 200px;
+    padding-top: 250px;
+}
+
+.container-cep {
+    width: 320px;
+    margin: 0 auto;
+}
+
+.cep-title {
+    font-size: 2.2rem;
+    padding-bottom: 20px;
+}
+
+.label-cep {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.cep {
+    margin: 0 5px;
+    
+}
+
+.result p {
+    padding-top: 10px;
+}
+
+.btn-cep {
+    background-color: var(--colorText);
+    color: var(--colorLine);
+    padding: 2px 8px;
+    border: none;
+}
